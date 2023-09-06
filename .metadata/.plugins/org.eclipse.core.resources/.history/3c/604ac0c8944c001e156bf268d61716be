@@ -1,0 +1,5 @@
+package pl.gocbar.example01;
+
+public class HomeController {
+
+}

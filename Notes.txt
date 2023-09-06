@@ -1,168 +1,43 @@
 *****************************************************************************************
                     Tworzenie nowego projektu git lokalnie
 
-
-
-*****************************************************************************************
-
-
-
-
-basia@MacBook-Pro-Basia hanna-paint % touch Notes.txt
-
 basia@MacBook-Pro-Basia hanna-paint % git init
 
 basia@MacBook-Pro-Basia hanna-paint % git status
 
 basia@MacBook-Pro-Basia hanna-paint % git add .
-
-basia@MacBook-Pro-Basia hanna-paint % git commit -m "Szkielet aplikacji nodejs i react"
--m 
-[main (root-commit) 6a81cf2] Szkielet aplikacji nodejs i react
-
 basia@MacBook-Pro-Basia hanna-paint % git log
 
 *****************************************************************************************
-    Wypychanie projektu do git - wcześniej utworzyłam tam puste repozytorium, stąd adres
+Wypychanie projektu do git - wcześniej utworzyłam tam puste repozytorium, stąd adres
 
-basia@MacBook-Pro-Basia hanna-paint % git remote add origin https://github.com/gocbar/hanna-paint.git
+https://github.com/gocbar/app-for-students.git 
 
-basia@MacBook-Pro-Basia hanna-paint % git push -u origin main
-
-Total 15 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/gocbar/hanna-paint.git
- * [new branch]      main -> main
-branch 'main' set up to track 'origin/main'.
-basia@MacBook-Pro-Basia hanna-paint % 
-
+basia@MacBook-Pro-Basia ApkiSpringa % git branch -M main
+basia@MacBook-Pro-Basia ApkiSpringa % git remote add origin https://github.com/gocbar/app-for-students.git
+basia@MacBook-Pro-Basia ApkiSpringa % git push -u origin main
 *****************************************************************************************
-basia@MacBook-Pro-Basia hanna-paint % git rm --cached -r Notes.txt
-rm 'Notes.txt'
-basia@MacBook-Pro-Basia hanna-paint % git rm --cached -r secret.txt
-fatal: pathspec 'secret.txt' did not match any files
-basia@MacBook-Pro-Basia hanna-paint % git rm --cached -r secret.txt
-fatal: pathspec 'secret.txt' did not match any files
-basia@MacBook-Pro-Basia hanna-paint % git rm --cached -r secret.txt
-fatal: pathspec 'secret.txt' did not match any files
-basia@MacBook-Pro-Basia hanna-paint % git rm --cached -r .vscode
-rm '.vscode/settings.json'
-basia@MacBook-Pro-Basia hanna-paint % git add .
-basia@MacBook-Pro-Basia hanna-paint % git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        modified:   .gitignore
-        renamed:    Notes.txt -> secret.txt
-
-basia@MacBook-Pro-Basia hanna-paint % commit -m "Ukrywanie plików"
-zsh: command not found: commit
-basia@MacBook-Pro-Basia hanna-paint % git commit -m "Ukrywanie plików"
-[main 0003d44] Ukrywanie plików
- 2 files changed, 1 insertion(+)
- rename Notes.txt => secret.txt (100%)
-basia@MacBook-Pro-Basia hanna-paint % git commit -m "naprawienie błedu secret oraz .vscode"
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   .gitignore
-
-no changes added to commit (use "git add" and/or "git commit -a")
-basia@MacBook-Pro-Basia hanna-paint % add .vscode
-zsh: command not found: add
-basia@MacBook-Pro-Basia hanna-paint % git add .vscode
-The following paths are ignored by one of your .gitignore files:
-.vscode
-hint: Use -f if you really want to add them.
-hint: Turn this message off by running
-hint: "git config advice.addIgnoredFile false"
-basia@MacBook-Pro-Basia hanna-paint % git add -f  .vscode
-basia@MacBook-Pro-Basia hanna-paint % git commit -m "naprawienie błedu secret oraz .vscode"
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   .gitignore
-
-no changes added to commit (use "git add" and/or "git commit -a")
-basia@MacBook-Pro-Basia hanna-paint % git commit -a  -m "naprawienie błedu secret oraz .vscode"
-[main 3effbb7] naprawienie błedu secret oraz .vscode
- 1 file changed, 3 insertions(+), 1 deletion(-)
-basia@MacBook-Pro-Basia hanna-paint % 
-
-
-
-
-
-
+    Pierwsze zmiany
 
 
 
 
 *****************************************************************************************
-…or create a new repository on the command line
-echo "# hanna" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/gocbar/hanna.git
-git push -u origin main
-…or push an existing repository from the command line
-git remote add origin https://github.com/gocbar/hanna.git
-git branch -M main
-git push -u origin main
-
-*****************************************************************************************
-
-				Hanna Blog od początku
-*****************************************************************************************
-Tworzę projekt to będzie client serwer - Painting
-
-npm install
-npm init
-//jeśli używam git to wystarczy 
-npm i 
-npm i express
-
-nodemon app.js
-http://localhost:3000/
-
-npm i body-parser
-npmm i request
-npm install ejs
-npm install lodash
-npm install mongodb
-npm install mongoose
-
-nodemon app.js
-
-const uri = "mongodb+srv://gocbar:tajneHaslo@clusterone.zhhypif.mongodb.net/galleryDB?retryWrites=true&w=majority";  
-
-Instaluję odpowiednią wersję mongoldb dla nodes
-npm install mongodb@5.7
 
 
 
-Tworzę projekt to będzie client serwer - Painting
 
-Spoza środowiska
-basia@MacBook-Pro-Basia ~ % cd /Users/basia/Desktop/painting 
-npx create-new-app client
 
-npm install
-npm start
 
-basia@MacBook-Pro-Basia painthanna % git remote add origin https://github.com/gocbar/painthanna.git
-basia@MacBook-Pro-Basia painthanna % git push -u origin main
+
+
+
+
+
+
+
+
+
 
 
 
