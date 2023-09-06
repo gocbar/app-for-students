@@ -18,8 +18,9 @@ basia@MacBook-Pro-Basia ApkiSpringa % git remote add origin https://github.com/g
 basia@MacBook-Pro-Basia ApkiSpringa % git push -u origin main
 *****************************************************************************************
     Pierwsze zmiany
-
-
+basia@MacBook-Pro-Basia ApkiSpringa % git add .
+basia@MacBook-Pro-Basia ApkiSpringa % git commit -m "Dodano stronę index oraz klase kontrolera do folderu example01";
+basia@MacBook-Pro-Basia ApkiSpringa % git push origin main
 
 
 *****************************************************************************************
