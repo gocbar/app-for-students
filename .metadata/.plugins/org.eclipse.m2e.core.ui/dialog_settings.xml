@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/basia/Desktop/ApkiSpringa/example02"/>
+			<item value="/Users/basia/Desktop/ApkiSpringa/example01"/>
 			<item value="/Users/basia/Desktop/ApkiSpringa/example_1"/>
 			<item value="/Users/basia/Desktop/ApkiSpringa/WzorzecPUW"/>
 			<item value="/Users/basia/Desktop/ApkiSpringa/myapp"/>

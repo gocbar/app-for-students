@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<body>
+	<header th:fragment="header">
+		<h3>Jestem nagłówkiem</h3>
+	</header>
+
+	<nav th:fragment="menu">
+		<ul class="nav justify-content-end">
+			<li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Aktywne menu</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+			<li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+			</li>
+		</ul>
+	</nav>
+	
+	<nav th:fragment="myNavbar">
+		<div class="container-fluid">
+			<div>
+				<nav class="navbar navbar-expand navbar-light bg-light">
+					<a class="navbar-brand" > <img
+						th:src="@{/images/logo.png}" style="width: 100px" />
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarNav">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item"><a class="nav-link active"
+								aria-current="page" href="#">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="#" >Użytkownicy</a>
+							</li>
+							<li class="nav-item"><a class="nav-link">Przywileje</a></li>
+							<li class="nav-item"><a class="nav-link"
+								th:href="@{categories}">Kategorie</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Marka</a>
+							</li>
+							<li class="nav-item"><a class="nav-link"
+								th:href="@{products}">Produkty</a></li>
+							<li class="nav-item"><a class="nav-link"
+								th:href="@{customers}">Klienci</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Rachunki</a>
+							</li>
+							<li class="nav-item"><a class="nav-link"
+								th:href="@{shipping}">Spedycja</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Raport
+									sprzedaży</a></li>
+							<li class="nav-item"><a class="nav-link"
+								href="#">Ustawienia</a></li>
+						</ul>
+					</div>
+			</div>
+	</nav>
+
+	<footer th:fragment="footer">
+		<p>&copy; 2023 BG</p>
+	</footer>
+</body>
+
+</html>

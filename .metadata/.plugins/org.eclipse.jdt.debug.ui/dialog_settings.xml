@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
 		<item key="ShowStatusLine" value="true"/>
-		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=myapp/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;pl.gocbar.myapp{MyappApplication.java[MyappApplication&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=example_1/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;pl.gocbar.example_1{Example1Application.java[Example1Application&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=myapp/src\/main\/java&amp;lt;pl.gocbar.myapp{MyappApplication.java[MyappApplication&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=example_1/src\/main\/java&amp;lt;pl.gocbar.example_1{Example1Application.java[Example1Application&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=example01/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;pl.gocbar.example01{Example01Application.java[Example01Application&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=example02/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;pl.gocbar.example02{Example02Application.java[Example02Application&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;"/>
 		<section name="DialogBoundsSettings">
 			<item key="DIALOG_HEIGHT" value="500"/>
 			<item key="DIALOG_WIDTH" value="600"/>

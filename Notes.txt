@@ -24,8 +24,10 @@ basia@MacBook-Pro-Basia ApkiSpringa % git push origin main
 
 
 *****************************************************************************************
-
-
+	Nowy projekt
+basia@MacBook-Pro-Basia ApkiSpringa % git add .
+basia@MacBook-Pro-Basia ApkiSpringa % git commit -m "Projekt example02 z powtarzalnymi elementami stron"
+basia@MacBook-Pro-Basia ApkiSpringa % git push origin main
 
 
 
